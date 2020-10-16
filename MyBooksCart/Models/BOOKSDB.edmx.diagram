@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ad9c5b13bb924744b9635d1d06a3d3c3" Name="Diagram1" ZoomLevel="106" >
+        <EntityTypeShape EntityType="BOOKSDB.Categories" Width="1.5" PointX="7.75" PointY="1.875" />
+        <EntityTypeShape EntityType="BOOKSDB.OrderDetails" Width="1.5" PointX="12.25" PointY="1.5" />
+        <EntityTypeShape EntityType="BOOKSDB.Orders" Width="1.5" PointX="10" PointY="5.25" />
+        <EntityTypeShape EntityType="BOOKSDB.Products" Width="1.5" PointX="10" PointY="1" />
+        <EntityTypeShape EntityType="BOOKSDB.C__MigrationHistory" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="BOOKSDB.AspNetRoles" Width="1.5" PointX="5.125" PointY="6.875" />
+        <EntityTypeShape EntityType="BOOKSDB.AspNetUserClaims" PointX="9.625" PointY="11.5" Width="1.5" />
+        <EntityTypeShape EntityType="BOOKSDB.AspNetUserLogins" Width="1.5" PointX="9.625" PointY="9" />
+        <EntityTypeShape EntityType="BOOKSDB.AspNetUsers" Width="1.5" PointX="7.375" PointY="5.625" />
+        <AssociationConnector Association="BOOKSDB.FK_Products_ToTable" />
+        <AssociationConnector Association="BOOKSDB.FK_OrderDetails_ToTable" />
+        <AssociationConnector Association="BOOKSDB.FK_OrderDetails_ToTable_1" />
+        <AssociationConnector Association="BOOKSDB.AspNetUserRoles" />
+        <AssociationConnector Association="BOOKSDB.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="BOOKSDB.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="BOOKSDB.AspNetUsersOrders" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
